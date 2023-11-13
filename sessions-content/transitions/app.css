@@ -1,0 +1,18 @@
+.hoverchange{
+    background-color: black;
+    border: 1px  solid;
+    height: 100px;
+    width:100px;
+    margin-left: 45%;
+    margin-top: 15%;
+    transition :3s;
+}
+#bar:hover{
+    width:400px;
+}
+.hoverchange:hover{
+    border-radius: 50%;
+    background-color: yellow;
+    transition-timing-function: ease-in;
+   
+}
